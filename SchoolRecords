@@ -1,0 +1,38 @@
+
+public class schoolRecords 
+	 {
+		String schoolName;
+		int schoolId;
+		String schoolAddress;
+		void ddRecords(String sName, int sId, String sAddress) {
+			schoolName=sName;
+			schoolId=sId;
+			schoolAddress=sAddress;
+			System.out.println("School Name is "+schoolName);
+			System.out.println("School Id is "+schoolId);
+			System.out.println("School Address is "+schoolAddress);
+			
+		System.out.println("School Records has been successfully added ");
+			
+		}
+		void dispRecords(String sName, int sId, String sAddress) {
+			schoolName=sName;
+			schoolId=sId;
+			schoolAddress=sAddress;
+			System.out.println("School Name is "+schoolName);
+			System.out.println("School Id is "+schoolId);
+			System.out.println("School Address is "+schoolAddress);
+			
+		System.out.println("School Records has been successfully displayed ");
+		}
+		
+		public static void main(String[] args)  {   
+			schoolRecords sr = new schoolRecords();
+
+            sr.ddRecords("ABC school", 1501, "Velachery, Chennai");
+
+            sr.dispRecords("ABC school", 1501, "Velchery, Chennai");
+
+	}
+
+}
