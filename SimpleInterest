@@ -1,0 +1,16 @@
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		float p =20000;
+		float n =4;
+		float r =2;
+		float si;
+		float t;
+		
+		si = (p*n*r)/100;
+		t=p+n*si;
+		System.out.println("Simple Interest is "+si);
+        System.out.println("Total amount to be paid is "+t);
+	}
+
+}
